@@ -62,11 +62,18 @@ Git Commands
 
 
 **git cherry-pick** command allows you to take a commit from another branch and apply it to your current branch.
+
 **git clean** command removes untracked files from your working directory, ensuring your workspace is tidy.
+
 **bare repository** in Git is a repository that contains only the .git directory and no working directory. It's typically used for shared repositories and remotes.
+
 Types of **merge strategy** - fast-forward, octopus, recursive.
+
 **git stash** command temporarily saves changes that are not yet ready for a commit, allowing you to switch to another branch without committing the current changes.
+
 In Git, **HEAD** is a special pointer or reference that points to the currently checked-out commit in the repository.
-**Merge conflict** occurs when there are changes in the same part of a file in both the current branch and the branch to be merged. Git cannot decide which change should take precedence, so it asks the user to resolve the conflict. - Overlapping changes between branches
+
+**Merge conflict** occurs when there are changes in the same part of a file in both the current branch and the branch to be merged. Git cannot decide which change should take precedence, so it asks the user to resolve the conflict. - Overlapping changes between branches.
+
 **.git directory** contains all the metadata and the object database for the repository. It's the heart of Git, and the repository itself.
 
